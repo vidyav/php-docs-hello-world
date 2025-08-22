@@ -1,10 +1,7 @@
 <?php
 // salesforce_webhook.php
-var_dump($_POST);
+var_dump(file_get_contents('php://input'));
 echo "Test displayed";
-
-$test = $_POST;
-print_r($_POST);
 
 header("Content-Type: application/json");
 
