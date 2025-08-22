@@ -1,13 +1,13 @@
 <?php
 // salesforce_webhook.php
-
+echo "Test displayed";
 // Get the raw POST data from the request body
-$postBody = file_get_contents('php://input');
+//$postBody = file_get_contents('php://input');
 
 // Decode the JSON data (assuming Salesforce sends data in JSON format)
-$data = json_decode($postBody, true); // true for associative array
+//$data = json_decode($postBody, true); // true for associative array
 
-print_r($data);
+//print_r($data);
 //Commenting code after this
 
 // Log the received data for debugging (optional)
