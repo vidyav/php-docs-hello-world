@@ -5,6 +5,9 @@ echo "Test displayed";
 
 header("Content-Type: application/json");
 
+$postData = file_get_contents("php:&# 47;&# 47;input");
+
+echo $postData;
 $input = json_decode(file_get_contents('php://input'), true);
 print_r($_GET);
 //file_put_contents('php://stderr', print_r($input, true)); // Debug logging
