@@ -6,7 +6,7 @@ echo "Test displayed";
 header("Content-Type: application/json");
 
 $input = json_decode(file_get_contents('php://input'), true);
-print_r($_REQUEST);
+print_r($_GET);
 //file_put_contents('php://stderr', print_r($input, true)); // Debug logging
 
 // Respond back
