@@ -1,5 +1,6 @@
 <?php
 // salesforce_webhook.php
+var_dump(file_get_contents('php://input'));
 echo "Test displayed";
 
 $test = $_POST;
