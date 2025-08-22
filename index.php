@@ -33,4 +33,4 @@ echo "Test displayed";
   //  http_response_code(400); // Bad Request
   //  echo json_encode(['status' => 'error', 'message' => 'Invalid or no data received.']);
 //}
-?>
+
