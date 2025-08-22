@@ -8,7 +8,7 @@ print_r($_POST);
 header("Content-Type: application/json");
 
 $input = json_decode(file_get_contents('php://input'), true);
-print_r($input, true);
+print_r($input);
 //file_put_contents('php://stderr', print_r($input, true)); // Debug logging
 
 // Respond back
